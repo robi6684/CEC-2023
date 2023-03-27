@@ -1,9 +1,3 @@
-/*
-  Theme Name: TheEvent
-  Theme URL: https://bootstrapmade.com/theevent-conference-event-bootstrap-template/
-  Author: BootstrapMade.com
-  License: https://bootstrapmade.com/license/
-*/
 
 /*--------------------------------------------------------------
 # General
@@ -1728,12 +1722,50 @@ body.mobile-nav-active #mobile-nav-toggle {
   }
 }
 
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600);
 
+table {
+  background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,73,121,1) 52%, rgba(0,212,255,1) 100%);
+  border-radius: 0.25em;
+  border-collapse: collapse;
+  margin: 1em;
+}
+th {
+  border-bottom: 1px solid #364043;
+  color: #E2B842;
+  font-size: 0.85em;
+  font-weight: 600;
+  padding: 0.5em 1em;
+  text-align: left;
+}
+td {
+  color: #fff;
+  font-weight: 400;
+  padding: 0.65em 1em;
+}
+.disabled td {
+  color: #4F5F64;
+}
+tbody tr {
+  transition: background 0.25s ease;
+}
+tbody tr:hover {
+  background: #014055;
+}
 
+.btn2{
+  margin-bottom: 2rem; 
+  font-size: larger; 
+  background-color: rgb(255, 55, 58); 
+  color: #fff;
+  border-style: none;
+  border-radius: 1.3rem;
+  padding: 5px 25px;
+}
 
-
-
-
-    
-
+.btn2:hover{
+  background-color: #112363;
+  cursor: pointer;
+}
 
