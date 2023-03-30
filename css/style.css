@@ -7,7 +7,6 @@ body {
   background: #fff;
   color: #2f3138;
   font-family: "Open Sans", sans-serif;
-  text-align: justify;
 }
 
 a {
@@ -1766,6 +1765,23 @@ tbody tr:hover {
 }
 
 .btn2:hover{
+  background-color: #112363;
+  cursor: pointer;
+}
+
+.see-other-topics button{
+  margin: auto;
+  font-size: larger; 
+  background-color: rgb(255, 55, 58); 
+  color: #fff;
+  border-style: none;
+  border-radius: 1.3rem;
+  padding: 5px 25px;
+  display: block;
+  text-align: center;
+}
+
+.see-other-topics button:hover{
   background-color: #112363;
   cursor: pointer;
 }
